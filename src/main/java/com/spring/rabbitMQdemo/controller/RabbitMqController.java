@@ -46,7 +46,8 @@ public class RabbitMqController {
     @GetMapping("send")
     public String send() {
         customMessageSender.sendMessage(exchangeName, routingKey, "Hi, This is my first message.");
-        return "Send Successfully, see message on console";
+        customMessageSender.sendMessage(exchangeName, routingKey, "This is the second message");
+        return "Send Successfully.";
     }
 
     /**
