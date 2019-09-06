@@ -1,8 +1,8 @@
 # RabbitMQ-with-Spring-Boot
 
 ## Steps : 
- 1. Run the Application.
- 2. Hit http://localhost:8080/send api for sending message/object to queue.
+ 1. Run the SpringBootApplication.
+ 2. Hit the http://localhost:8080/send api for sending message/object to queue.
  3. Check message is there in queue or not, by login on http://localhost:15672 
  # Default Username : guest
  # Default Password : guest
